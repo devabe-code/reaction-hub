@@ -1,0 +1,60 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 102" width="118" height="50">
+  <title>site_logo_dark_mode-svg</title>
+  <style>
+    .s0 { fill: #d9b3ff } 
+    .s1 { fill: none;stroke: #d9b3ff;stroke-width: 7.5 } 
+  </style>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" class="s0" d="m57.2 36.2l-13 13.1 14.3 14.4h-12.2l-11-11v11h-9.5v-46.1h9.5v28.2l9.6-9.6z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" class="s0" d="m55.9 63.7v-27.5h9.5v4h0.1q0.1-0.3 0.3-0.6 0.3-0.3 1.1-1.1 0.8-0.8 1.7-1.4 0.9-0.7 2.3-1.2 1.5-0.5 3-0.5 1.5 0 3 0.4 1.5 0.5 2.2 0.9l0.8 0.4-4 8q-1.8-1.5-4.9-1.5-1.7 0-3 0.8-1.2 0.7-1.7 1.8-0.5 1.1-0.7 1.8-0.3 0.8-0.2 1.2v14.5z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" fill-rule="evenodd" class="s0" d="m80.6 60.4q-4.6-4.1-4.6-10.4 0-6.4 4.8-10.5 4.7-4.1 11.8-4.1 6.9 0 11.6 4.1 4.7 4.1 4.8 10.5 0 6.3-4.7 10.4-4.6 4.1-11.7 4.1-7.4 0-12-4.1zm7.3-15.1q-1.8 1.8-1.8 4.7 0 2.8 1.7 4.6 1.8 1.8 4.7 1.8 2.8 0 4.6-1.8 1.8-1.8 1.8-4.6 0-2.9-1.9-4.7-1.8-1.8-4.5-1.8-2.7 0-4.6 1.8z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" class="s0" d="m125.7 63.7h-6.4l-14.8-27.5h11l6.7 14.8 6.6-14.8h6.5l6.6 14.8 6.7-14.8h10.9l-14.7 27.5h-6.4l-6.4-14.2z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" class="s0" d="m163.2 52.2q2.6 0 4.4 1.8 1.8 1.8 1.8 4.4 0 2.5-1.8 4.3-1.8 1.8-4.4 1.8-2.5 0-4.3-1.8-1.8-1.8-1.8-4.3 0-2.6 1.8-4.4 1.8-1.8 4.3-1.8z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" class="s0" d="m172.8 36.2v-10.2h9.5v10.2h5.8v7.2h-5.8v8.8q0 3.8 2.2 3.8 0.5 0 1.1-0.2 0.6-0.3 0.9-0.5l0.3-0.2 2.4 7.7q-3.1 1.7-7 1.7-2.7 0-4.6-1-1.9-0.9-2.9-2.5-1-1.6-1.4-3.3-0.5-1.7-0.5-3.7v-10.6h-3.9v-7.2z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer">
+    <g id="Layer">
+      <g id="Layer">
+        <path id="Layer" class="s0" d="m194.8 36.2l6.7 14.9 6.7-14.9h11.2l-14.7 27.5h-6.4l-14.8-27.5z"/>
+      </g>
+    </g>
+  </g>
+  <path id="Layer" fill-rule="evenodd" class="s1" d="m3.6 95.8h63.3"/>
+  <path id="Layer" fill-rule="evenodd" class="s1" d="m7.4 35.5v61.8"/>
+  <path id="Layer" fill-rule="evenodd" class="s1" d="m239 7.2h-63.3"/>
+  <path id="Layer" fill-rule="evenodd" class="s1" d="m235.2 67.5v-61.8"/>
+</svg>
