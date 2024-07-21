@@ -1,3 +1,4 @@
+
 import React from 'react';
 import VideoCarousel from '@/app/components/video_carousel';
 import HeroCarousel from '@/app/components/hero_carousel';
@@ -12,7 +13,7 @@ const Home = async () => {
       <div id='hero' className='w-svw hidden sm:block bg-black m-2'>
         {currVideos.length > 0 && <HeroCarousel videos={currVideos} />}
       </div>
-      <div id='latest-reactions' className='lg:w-3/4 w-full mt-8'>
+      <div id='latest-reactions' className='w-2/3 mt-8'>
         {latestVideos.map((anime, index) => (
           <VideoCarousel key={index} videos={anime.videos} anime={anime.anime} season={anime.season} />
         ))}
