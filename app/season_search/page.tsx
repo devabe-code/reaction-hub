@@ -23,9 +23,9 @@ const SeasonSearch: React.FC<SeasonSearchProps> = async ({ searchParams }) => {
   return (
     <main className="p-10 w-full mx-auto">
       <div id='row-title' className='flex flex-col sm:flex-row items-center'>
-        <h1 className="font-bold text-xl uppercase">{anime.replace('_', ' ')}</h1>
+        <h1 className="font-bold text-xl uppercase">{anime.replaceAll('_', ' ')}</h1>
         <DividerVerticalIcon className='hidden sm:flex'/>
-        <span className='font-bold uppercase opacity-60'>{season}</span>
+        <span className='font-bold uppercase opacity-60'>{season.replaceAll('_', ' ')}</span>
       </div>
       <Divider className='my-4'/>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

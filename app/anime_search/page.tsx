@@ -24,7 +24,7 @@ const AnimeSearch: React.FC<AnimeSearchProps> = async ({ searchParams }) => {
   );
 
   return (
-    <main className='md:w-2/3 w-full mx-auto'>
+    <main className='w-full m-4'>
       <div>
         {videosByAnime.length > 0 ? (
           videosByAnime.map(({ season, videos }) => (
