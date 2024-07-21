@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-.h-1/2-screen {
-  height: 50vh;
-}
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
   }
