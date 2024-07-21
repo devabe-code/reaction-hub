@@ -30,11 +30,25 @@ const SiteNav = () => {
     { title: "Discord", icon: <FaDiscord />, page: 'https://discord.gg/Jtdwta2' }
   ];
 
-  const handleSearchOpen = () => setIsSearchOpen(!isSearchOpen);
+  const handleSearchOpen = () => {
+    if (isSearchOpen) {
+      // Clear search values when closing
+      const searchComponent = searchPanelRef.current?.querySelector('input');
+      if (searchComponent) {
+        searchComponent.value = '';
+      }
+    }
+    setIsSearchOpen(!isSearchOpen);
+  };
 
   const handleClickOutside = (event: MouseEvent) => {
     if (searchPanelRef.current && !searchPanelRef.current.contains(event.target as Node)) {
       setIsSearchOpen(false);
+      // Clear search values when closing
+      const searchComponent = searchPanelRef.current?.querySelector('input');
+      if (searchComponent) {
+        searchComponent.value = '';
+      }
     }
   };
 
@@ -99,7 +113,7 @@ const SiteNav = () => {
 
       <div
         ref={searchPanelRef}
-        className={`fixed top-0 left-0 right-0 bg-background shadow-lg z-50 p-4 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 right-0 bg-white shadow-lg z-50 p-4 transform transition-transform duration-300 ${
           isSearchOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
