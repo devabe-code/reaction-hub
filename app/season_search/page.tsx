@@ -21,7 +21,7 @@ const SeasonSearch: React.FC<SeasonSearchProps> = async ({ searchParams }) => {
   const videos: Video[] = await fetchData(anime, season);
 
   return (
-    <main className="p-10 w-full mx-auto">
+    <main className="p-10 lg:w-3/4 w-full mx-auto">
       <div id='row-title' className='flex flex-col sm:flex-row items-center'>
         <h1 className="font-bold text-xl uppercase">{anime.replaceAll('_', ' ')}</h1>
         <DividerVerticalIcon className='hidden sm:flex'/>

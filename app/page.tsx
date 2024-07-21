@@ -12,7 +12,7 @@ const Home = async () => {
       <div id='hero' className='w-svw hidden sm:block bg-black m-2'>
         {currVideos.length > 0 && <HeroCarousel videos={currVideos} />}
       </div>
-      <div id='latest-reactions' className='md:w-2/3 w-full mt-8'>
+      <div id='latest-reactions' className='lg:w-3/4 w-full mt-8'>
         {latestVideos.map((anime, index) => (
           <VideoCarousel key={index} videos={anime.videos} anime={anime.anime} season={anime.season} />
         ))}
