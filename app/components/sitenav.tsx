@@ -113,7 +113,7 @@ const SiteNav = () => {
 
       <div
         ref={searchPanelRef}
-        className={`fixed top-0 left-0 right-0 bg-white shadow-lg z-50 p-4 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 right-0 bg-background shadow-lg z-50 p-4 transform transition-transform duration-300 ${
           isSearchOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
