@@ -68,14 +68,16 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ videos }) => {
         </div>
         <div className="relative w-2/3 h-full overflow-hidden">
           <Link href={`/video/${[currentVideo.episode + "+" + currentVideo.anime + "+" + currentVideo.season]}`} key={currentIndex}>
-            <Image
-              src={currentVideo.thumbnail}
-              alt={'Hero Thumbnail'}
-              fill
-              sizes="100vw"
-              style={{ objectFit: "cover" }}
-              className={`rounded-lg transform transition-transform duration-500 ease-in-out ${!fade ? 'scale-105' : ''}`}
-            />
+            <div className="relative w-full h-full">
+              <Image
+                src={currentVideo.thumbnail}
+                alt={'Hero Thumbnail'}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                style={{ objectFit: "cover" }}
+                className={`rounded-lg transform transition-transform duration-500 ease-in-out ${!fade ? 'scale-105' : ''}`}
+              />
+            </div>
           </Link>
           <div className='absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent'></div>
         </div>
