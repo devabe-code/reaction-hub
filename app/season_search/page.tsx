@@ -12,6 +12,7 @@ interface SeasonSearchProps {
     season?: string;
   };
 }
+export const revalidate = 10;
 
 const SeasonSearch: React.FC<SeasonSearchProps> = async ({ searchParams }) => {
   const anime = searchParams?.anime || '';

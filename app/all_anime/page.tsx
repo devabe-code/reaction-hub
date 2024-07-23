@@ -1,8 +1,9 @@
 import React from 'react';
 import AnimeCard from "@/app/components/anime_card";
-import { fetchAnimeInfo, get_databases } from "@/utils/fetchData";
+import { fetchAnimeInfo } from "@/utils/fetchData";
 import { AnimeCardProps } from "@/types/data_types";
 import Link from 'next/link';
+export const revalidate = 10;
 
 const AllAnime = async () => {
   const animeList: AnimeCardProps[] = await fetchAnimeInfo();

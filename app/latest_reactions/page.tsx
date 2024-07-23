@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoCard from '@/app/components/latest_video';
 import { current_reactions } from '@/utils/video_collection';
+export const revalidate = 10;
 
 const LatestReactions = async () => {
   const currVideos = await current_reactions();
