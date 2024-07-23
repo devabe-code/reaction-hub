@@ -1,7 +1,6 @@
 import { fetchCollections, fetchData } from '@/utils/fetchData';
 import React from 'react';
 import VideoCarousel from '../components/video_carousel';
-export const revalidate = 10;
 
 interface AnimeSearchProps {
   searchParams?: {
