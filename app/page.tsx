@@ -3,8 +3,6 @@ import VideoCarousel from '@/app/components/video_carousel';
 import HeroCarousel from '@/app/components/hero_carousel';
 import { latest_videos, current_reactions } from '@/utils/video_collection';
 
-// This sets the revalidation time to 60 seconds
-export const revalidate = 500;
 
 const Home = async () => {
   const latestVideos = await latest_videos();
