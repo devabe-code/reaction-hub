@@ -6,6 +6,7 @@ import SiteNav from '@/app/components/sitenav';
 
 import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import Adsense from "./components/adsense";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -21,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Adsense />
+      </head>
       <body className={rubik.className}>
         <NextUIProvider>
           <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
