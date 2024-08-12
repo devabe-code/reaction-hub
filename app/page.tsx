@@ -2,6 +2,7 @@ import React from 'react';
 import VideoCarousel from '@/app/components/video_carousel';
 import HeroCarousel from '@/app/components/hero_carousel';
 import { latest_videos, current_reactions } from '@/utils/video_collection';
+import Adsense from './components/adsense';
 
 
 const Home = async () => {
@@ -10,6 +11,9 @@ const Home = async () => {
 
   return (
     <main className='flex flex-col items-center justify-center'>
+      <head>
+        <Adsense />
+      </head>
       <div id='hero' className='w-svw hidden sm:block bg-black m-2'>
         {currVideos.length > 0 && <HeroCarousel videos={currVideos} />}
       </div>
